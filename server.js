@@ -4,6 +4,9 @@ const path = require('path');
 const server = express();
 
 const exercise = '05 - Flex Panel Gallery';
+
+server.use(express.static(exercise));
+
 server.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, exercise, 'index.html'));
 });
