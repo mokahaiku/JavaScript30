@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '05 - Flex Panel Gallery';
+const exercise = '07 - Array Cardio Day 2';
 
 server.use(express.static(exercise));
 
