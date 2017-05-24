@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '07 - Array Cardio Day 2';
+const exercise = '08 - Fun with HTML5 Canvas';
 
 server.use(express.static(exercise));
 
