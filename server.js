@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '08 - Fun with HTML5 Canvas';
+const exercise = '10 - Hold Shift and Check Checkboxes';
 
 server.use(express.static(exercise));
 
