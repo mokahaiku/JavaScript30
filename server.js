@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '10 - Hold Shift and Check Checkboxes';
+const exercise = '11 - Custom Video Player';
 
 server.use(express.static(exercise));
 
