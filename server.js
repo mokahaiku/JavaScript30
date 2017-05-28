@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '11 - Custom Video Player';
+const exercise = '12 - Key Sequence Detection';
 
 server.use(express.static(exercise));
 
