@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '12 - Key Sequence Detection';
+const exercise = '13 - Slide in on Scroll';
 
 server.use(express.static(exercise));
 
