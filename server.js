@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '13 - Slide in on Scroll';
+const exercise = '17 - Sort Without Articles';
 
 server.use(express.static(exercise));
 
