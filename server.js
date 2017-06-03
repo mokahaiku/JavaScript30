@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '17 - Sort Without Articles';
+const exercise = '18 - Adding Up Times with Reduce';
 
 server.use(express.static(exercise));
 
