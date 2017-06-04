@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '18 - Adding Up Times with Reduce';
+const exercise = '19 - Webcam Fun';
 
 server.use(express.static(exercise));
 
