@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '19 - Webcam Fun';
+const exercise = '20 - Speech Detection';
 
 server.use(express.static(exercise));
 
