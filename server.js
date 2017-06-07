@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '20 - Speech Detection';
+const exercise = '22 - Follow Along Link Highlighter';
 
 server.use(express.static(exercise));
 
