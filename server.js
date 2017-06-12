@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '26 - Stripe Follow Along Nav';
+const exercise = '28 - Video Speed Controller';
 
 server.use(express.static(exercise));
 
