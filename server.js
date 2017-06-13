@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '28 - Video Speed Controller';
+const exercise = '29 - Countdown Timer';
 
 server.use(express.static(exercise));
 
