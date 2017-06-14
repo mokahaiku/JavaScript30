@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '29 - Countdown Timer';
+const exercise = '27 - Click and Drag';
 
 server.use(express.static(exercise));
 
