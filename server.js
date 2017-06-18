@@ -3,7 +3,7 @@ const path = require('path');
 
 const server = express();
 
-const exercise = '27 - Click and Drag';
+const exercise = '30 - Whack A Mole';
 
 server.use(express.static(exercise));
 
